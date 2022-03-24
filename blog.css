@@ -1,0 +1,144 @@
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+header{
+    
+      
+      color: #000000;
+      padding-top: 20px;
+      min-height: 70px;
+      border-bottom: orange 5px solid;
+      height: 80px;
+      background: rgba(111, 102, 102, 0.2);
+      border-radius: 0px 0px 25px 25px;
+  }
+  header a{
+      text-decoration: none;
+      font-size: 24px;
+      color: #000000;
+      text-transform: uppercase;
+  }
+  header ul{
+      margin: 0;
+      padding: 0;
+  }
+  header li{
+      float: left;
+      display:inline;
+      padding: 0 10px 0 10px;
+  }
+  header nav{
+      float: right;
+      margin-top: 10px;
+  }
+  header a:hover{
+      color:#cccccc;
+      font-weight: bold;
+  }
+article h1{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 50px;
+}
+img{
+    border-radius: 20px;
+    height: 150px;
+    width: 200px;
+    margin-left: 150px;
+}
+.container-left p{
+    float: left;
+    position: absolute;
+    text-align: right;
+    font-size: 1.8vw;
+    margin-right: 150px;
+    margin-left: 350px;   
+    block-size: 50px;
+}
+.container p{
+    font-size: 24px;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: rgb(12, 12, 12);
+    background-color: #857676;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #999696}
+  
+  .button:active {
+    background-color: #857676;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  input[type=text] {
+    width: 250px;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .final{
+      background-color: #e5e5e5;
+      height: max-content;
+  }
+  .column{
+      float: left;
+      width: 329px;
+      padding-left: 100px;
+      background-color: #e5e5e5;
+      height: 300px;
+      
+  }
+  .column a{
+      color: #000000;
+  }
+footer {
+  text-align:center;
+  color: #000000;
+  background-color: #C4C4C4;
+  width: 1200px;
+}
+.fa {
+padding: 0px;
+font-size: 14px;
+width: 15px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+color: black;
+}
+
+.fa-twitter {
+color: black;
+}
+
+.fa-google {
+color: black;
+}
+
+.fa-linkedin {
+color: black;
+}
+.fa-instagram {
+color: black;
+}  
+

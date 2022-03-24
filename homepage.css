@@ -1,0 +1,221 @@
+body{
+    font: 1vw,sans-serif,helvetica,arial;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+header{
+    
+      
+      color: #000000;
+      padding-top: 20px;
+      min-height: 70px;
+      border-bottom: orange 5px solid;
+      height: 510px;
+      background: rgba(111, 102, 102, 0.2);
+      border-radius: 0px 0px 25px 25px;
+  }
+  header a{
+      text-decoration: none;
+      font-size: 2vw;
+      color: #000000;
+      text-transform: uppercase;
+  }
+  header ul{
+      margin: 0;
+      padding: 0;
+  }
+  header li{
+      float: left;
+      display:inline;
+      padding: 0 10px 0 10px;
+  }
+  header nav{
+      float: right;
+      margin-top: 10px;
+  }
+  header a:hover{
+      color:#cccccc;
+      font-weight: bold;
+  }
+  header img{
+      height: 350px;
+      width: 350px;
+      border-radius:50%;
+      float: right ;
+      padding-top: 30px;
+      
+  }
+ .text{
+      padding-top: 250px;
+      font-size: 1vw;
+  }
+  .h4{
+      color: #F6D211;
+  }
+  .about{
+      padding-left: 130px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 1vw;
+      padding-right: 130px;
+  }
+  .abouty img{
+    border-radius: 40px;
+    height: 150px;
+    width: 200px;
+    padding-left: 10px;
+}
+.abouty{
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.abouty-left{
+    padding-right: 1000px;
+    float: right;
+    padding-top: 50px;
+}
+.abouty p{
+    font-family:Arial, Helvetica, sans-serif;;
+    font-size: 1vw;
+    text-align: left;
+    position: absolute;
+    margin-top: 10px;
+}
+  .project img{
+      border-radius: 40px;
+      height: 150px;
+      width: 200px;
+      padding-left: 10px;
+  }
+  .project{
+      padding-left: 120px;
+      padding-top: 20px;
+  }
+  .project-left{
+      padding-right: 1000px;
+      float: right;
+      padding-top: 50px;
+  }
+  .project p{
+    font-family:Arial, Helvetica, sans-serif;
+      font-size: 1vw;
+      text-align: left;
+      position: absolute;
+      margin-top: 50px;
+  }
+
+  ul li{
+    margin-left:20px ;
+    }
+    .button {
+        padding: 15px 25px;
+        font-size: 1vw;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: rgb(12, 12, 12);
+        background-color: #857676;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+      }
+      
+      .button:hover {background-color: #999696}
+      
+      .button:active {
+        background-color: #857676;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+      input[type=text] {
+        width: 250px;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      .final{
+          background-color: #e5e5e5;
+          height: max-content;
+      }
+      .column{
+          float: left;
+          width: 449px;
+          padding-left: 10px;
+          background-color: #e5e5e5;
+          height: 250px;     
+      }
+      .columns h3{
+          padding-left: 35px;
+      }
+      .column a, p {
+          color: #000000;
+          padding-left: 20px;
+      }
+  .fa {
+    padding: 0px;
+    font-size: 1vw;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: black;
+  }
+  
+  .fa-twitter {
+    color: black;
+  }
+  
+  .fa-google {
+    color: black;
+  }
+  
+  .fa-linkedin {
+    color: black;
+  }
+  .fa-instagram {
+    color: black;
+  }  
+  * {box-sizing: border-box}
+.containr {
+  width: 100%;
+  background-color: #ddd;
+  border-radius:50px;
+  height:20px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #fdba00;}
+.css {width: 80%; background-color: #fdba00;}
+.ui {width: 75%; background-color: #fdba00;}
+.c {width: 70%; background-color: #fdba00;}
+.ci {width: 65%; background-color: #fdba00;}
+.javascript {width: 60%; background-color: #fdba00;}
+.mysql {width: 55%; background-color: #fdba00;}
+.python {width: 50%; background-color: #fdba00;}
+
+ footer {
+    text-align:center;
+    color: #000000;
+    background-color: #C4C4C4;
+}
